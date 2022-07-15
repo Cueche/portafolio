@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {font-size: 3.5em;}
+h2 {font-size: 2.7em ; }
+h3 {font-size: 2em;}
+p {font-size: 1.25em; }
+ul {list-style: none;}
+li {font-size: 1.25em;}
+
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5) ;
+    color: #beaf87;
+    background-color: #252526;
+}
+
+button:hover {
+    background-color: #7c7154;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento {color: #beaf87;}
+
+header {
+    background-color: #e6e7e8;
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #beaf87;
+    font-size: 1.6em;
+
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px; 
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: #beaf87;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: #e6e7e8;
+    background-image: linear-gradient(
+        0deg,
+         rgba(0,0,0,0.5),
+         rgba(0,0,0,0.5)
+    )
+    ,url("hero-Img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: #e6e7e8;
+}
+
+#about-me{
+
+}
+
+#about-me .container{
+  text-align: center;
+   padding: 200px 12px; 
+}
+
+#conocimientos{
+    flex-direction: column;
+    background-color: #252526;
+    color: #e6e7e8;
+    text-align: center;
+}
+
+#conocimientos .container {
+    padding: 10px 0px;
+}
+
+#conocimientos h2{
+    margin-top: 0px;
+    font-size: 2.7em;
+
+}
+
+#conocimientos p{
+    display: none;
+}
+
+#conociminetos .tarjeta {
+   
+}
+
+.tarjeta:first-child{
+    background-image: linear-gradient(
+        0deg,
+         rgba(0,0,0,0.5),
+         rgba(0,0,0,0.5)
+    )
+    ,url("html-img.jfif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 8px;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+.tarjeta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+         rgba(0,0,0,0.5),
+         rgba(0,0,0,0.5)
+    )
+    ,url("css.jfif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 8px;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+.tarjeta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+         rgba(0,0,0,0.5),
+         rgba(0,0,0,0.5)
+    )
+    ,url("js-img.jfif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 8px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#proyectos{
+    background-color: #e6e7e8;
+    color: #252526;
+}
+
+#proyectos .container{
+    text-align: center;
+    padding: 190px 12px;
+}
+
+#proyectos li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+.seccion {
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+  }
+
+  .seccion__contenedor {
+    max-width: 992px;
+    margin: 0 auto;
+  }
+
+  .seccion__titulo {
+    padding-left: 20px;
+    color: #beaf87;
+  }
+
+  .seccion__contenido {
+    padding: 10px 20px 40px;
+  }
+
+  .form {
+    /* border: 1px solid red; */
+    padding: 0 25px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: 2rem;
+    color: #beaf87;
+  }
+
+  .form-control {
+    padding: 15px;
+    font-size: 1rem;
+    background-color: #e6e7e8;
+    border: 1px solid transparent;
+    border-radius: 8px;
+  }
+
+  .form-control::placeholder {
+    color: #252526;
+  }
+
+  .form-control:focus-visible {
+    outline: 1.5px solid #7c7154;
+    border-color: #beaf87;
+  }
+
+  .btn-form {
+    padding: 15px;
+    background-color: #252526;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: #beaf87;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .btn-form:hover {
+    background-color: #7c7154;
+  }
+
+  #contacto{
+    background-color: #252526;
+  }
+
+
+
